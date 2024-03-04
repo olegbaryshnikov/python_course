@@ -64,7 +64,7 @@ def cli_tail(files: List[str] = []) -> str:
     return out
 
 
-@click.command(name="wc", short_help="???")
+@click.command(name="wc", short_help="Print stats about files/stdin")
 @click.argument("files", required=False, nargs=-1, type=click.Path())
 def cli_wc(files: List[str] = []) -> str:
     if len(files) > 0:
