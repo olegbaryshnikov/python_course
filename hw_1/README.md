@@ -348,10 +348,10 @@ root@a3f1a3fa11bd:/# python3 python_course/hw_1 wc
 2
 3
       3       3       6
-root@a3f1a3fa11bd:/# python3 python_course/hw_1 wc     
+root@a3f1a3fa11bd:/# python3 python_course/hw_1 wc
 1
 2
-3      3       3       5
+3      2       3       5
 root@a3f1a3fa11bd:/# python3 python_course/hw_1 wc
 1 1
 222    22

@@ -77,7 +77,7 @@ def cli_wc(files: List[str] = []) -> str:
 
             # count stats
             # wc don't count the last newline in this mode
-            num_newlines = len(lines) - 1
+            num_newlines = sum(1 for line in lines for w in line if w=="\n")
             num_words = sum(1 for line in lines for _ in line.split())
             num_bytes = (
                 sum(len(line.encode("utf-8")) for line in lines)
@@ -114,7 +114,7 @@ def cli_wc(files: List[str] = []) -> str:
     else:
         lines = sys.stdin.readlines()
         # count stats
-        num_newlines = len(lines)
+        num_newlines = sum(1 for line in lines for w in line if w=="\n")
         num_words = sum(1 for line in lines for _ in line.split())
         # wc skip newlines as bytes in this mode
         num_bytes = sum(len(line.encode("utf-8")) for line in lines)
