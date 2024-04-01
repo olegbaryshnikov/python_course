@@ -1,0 +1,22 @@
+INFO:root:  4.3854: Main process is sending message: hello
+INFO:root:  4.3246: Process A received message: hello
+INFO:root:  4.3246: Process A is sending message: hello
+INFO:root:  4.3226: Process B received message: hello
+INFO:root:  4.3226: Process B is sending message: uryyb
+INFO:root:  5.8338: Main process is sending message: world
+INFO:root:  5.8348: Main process received message: uryyb
+INFO:root:  7.7049: Main process is sending message: foobar
+INFO:root:  9.3261: Process A received message: world
+INFO:root:  9.3261: Process A is sending message: world
+INFO:root:  9.3231: Process B received message: world
+INFO:root:  9.3231: Process B is sending message: jbeyq
+INFO:root: 11.3742: Main process is sending message: print123
+INFO:root: 11.3742: Main process received message: jbeyq
+INFO:root: 14.3270: Process A received message: foobar
+INFO:root: 14.3270: Process A is sending message: foobar
+INFO:root: 14.3240: Process B received message: foobar
+INFO:root: 14.3240: Process B is sending message: sbbone
+INFO:root: 19.3278: Process A received message: print123
+INFO:root: 19.3278: Process A is sending message: print123
+INFO:root: 19.3248: Process B received message: print123
+INFO:root: 19.3248: Process B is sending message: cevag123
