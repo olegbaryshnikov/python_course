@@ -1,22 +1,88 @@
-INFO:root:  4.3854: Main process is sending message: hello
-INFO:root:  4.3246: Process A received message: hello
-INFO:root:  4.3246: Process A is sending message: hello
-INFO:root:  4.3226: Process B received message: hello
-INFO:root:  4.3226: Process B is sending message: uryyb
-INFO:root:  5.8338: Main process is sending message: world
-INFO:root:  5.8348: Main process received message: uryyb
-INFO:root:  7.7049: Main process is sending message: foobar
-INFO:root:  9.3261: Process A received message: world
-INFO:root:  9.3261: Process A is sending message: world
-INFO:root:  9.3231: Process B received message: world
-INFO:root:  9.3231: Process B is sending message: jbeyq
-INFO:root: 11.3742: Main process is sending message: print123
-INFO:root: 11.3742: Main process received message: jbeyq
-INFO:root: 14.3270: Process A received message: foobar
-INFO:root: 14.3270: Process A is sending message: foobar
-INFO:root: 14.3240: Process B received message: foobar
-INFO:root: 14.3240: Process B is sending message: sbbone
-INFO:root: 19.3278: Process A received message: print123
-INFO:root: 19.3278: Process A is sending message: print123
-INFO:root: 19.3248: Process B received message: print123
-INFO:root: 19.3248: Process B is sending message: cevag123
+INFO:root:  4.7323: Main process is sending message: hello
+INFO:root:  4.6713: Process A received message: hello
+INFO:root:  4.6713: Process A is sending message: hello
+INFO:root:  4.6723: Process B received message: hello
+INFO:root:  4.6733: Process B is sending message: uryyb
+INFO:root:  5.9419: Main process is sending message: world
+INFO:root:  5.9419: Main process received message: uryyb
+INFO:root:  7.4419: Main process is sending message: new
+INFO:root:  9.3322: Main process is sending message: foobar
+INFO:root:  9.6729: Process A received message: world
+INFO:root:  9.6729: Process A is sending message: world
+INFO:root:  9.6729: Process B received message: world
+INFO:root:  9.6739: Process B is sending message: jbeyq
+INFO:root: 12.4223: Main process is sending message: printsmth
+INFO:root: 12.4223: Main process received message: jbeyq
+INFO:root: 14.6737: Process A received message: new
+INFO:root: 14.6737: Process A is sending message: new
+INFO:root: 14.6737: Process B received message: new
+INFO:root: 14.6737: Process B is sending message: arj
+INFO:root: 15.4419: Main process is sending message: newline
+INFO:root: 15.4419: Main process received message: arj
+INFO:root: 17.6020: Main process is sending message: 123
+INFO:root: 19.6748: Process A received message: foobar
+INFO:root: 19.6748: Process A is sending message: foobar
+INFO:root: 19.6748: Process B received message: foobar
+INFO:root: 19.6748: Process B is sending message: sbbone
+INFO:root: 20.3220: Main process is sending message: wht
+INFO:root: 20.3220: Main process received message: sbbone
+INFO:root: 21.5925: Main process is sending message: who
+INFO:root: 24.6760: Process A received message: printsmth
+INFO:root: 24.6760: Process A is sending message: printsmth
+INFO:root: 24.6760: Process B received message: printsmth
+INFO:root: 24.6760: Process B is sending message: cevagfzgu
+INFO:root: 29.6771: Process A received message: newline
+INFO:root: 29.6771: Process A is sending message: newline
+INFO:root: 29.6771: Process B received message: newline
+INFO:root: 29.6771: Process B is sending message: arjyvar
+INFO:root: 31.6222: Main process is sending message: how
+INFO:root: 31.6222: Main process received message: cevagfzgu
+INFO:root: 34.6780: Process A received message: 123
+INFO:root: 34.6780: Process A is sending message: 123
+INFO:root: 34.6780: Process B received message: 123
+INFO:root: 34.6780: Process B is sending message: 123
+INFO:root: 35.7422: Main process is sending message: anything
+INFO:root: 35.7422: Main process received message: arjyvar
+INFO:root: 37.7735: Main process is sending message: three
+INFO:root: 37.7735: Main process received message: 123
+INFO:root: 38.9919: Main process is sending message: two
+INFO:root: 39.6786: Process A received message: wht
+INFO:root: 39.6786: Process A is sending message: wht
+INFO:root: 39.6786: Process B received message: wht
+INFO:root: 39.6786: Process B is sending message: jug
+INFO:root: 40.8628: Main process is sending message: one
+INFO:root: 40.8628: Main process received message: jug
+INFO:root: 43.0822: Main process is sending message: seven
+INFO:root: 44.2118: Main process is sending message: six
+INFO:root: 44.6790: Process A received message: who
+INFO:root: 44.6790: Process A is sending message: who
+INFO:root: 44.6790: Process B received message: who
+INFO:root: 44.6790: Process B is sending message: jub
+INFO:root: 49.6797: Process A received message: how
+INFO:root: 49.6797: Process A is sending message: how
+INFO:root: 49.6797: Process B received message: how
+INFO:root: 49.6797: Process B is sending message: ubj
+INFO:root: 54.6803: Process A received message: anything
+INFO:root: 54.6803: Process A is sending message: anything
+INFO:root: 54.6803: Process B received message: anything
+INFO:root: 54.6803: Process B is sending message: nalguvat
+INFO:root: 59.6807: Process A received message: three
+INFO:root: 59.6807: Process A is sending message: three
+INFO:root: 59.6807: Process B received message: three
+INFO:root: 59.6807: Process B is sending message: guerr
+INFO:root: 64.6818: Process A received message: two
+INFO:root: 64.6818: Process A is sending message: two
+INFO:root: 64.6818: Process B received message: two
+INFO:root: 64.6818: Process B is sending message: gjb
+INFO:root: 69.6820: Process A received message: one
+INFO:root: 69.6820: Process A is sending message: one
+INFO:root: 69.6820: Process B received message: one
+INFO:root: 69.6820: Process B is sending message: bar
+INFO:root: 74.6829: Process A received message: seven
+INFO:root: 74.6829: Process A is sending message: seven
+INFO:root: 74.6829: Process B received message: seven
+INFO:root: 74.6829: Process B is sending message: frira
+INFO:root: 79.6838: Process A received message: six
+INFO:root: 79.6838: Process A is sending message: six
+INFO:root: 79.6838: Process B received message: six
+INFO:root: 79.6838: Process B is sending message: fvk
