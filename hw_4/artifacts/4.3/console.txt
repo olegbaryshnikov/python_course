@@ -1,0 +1,70 @@
+  0.0146: [MAIN] Print message:
+hello
+  1.3862: [MAIN] Print message:
+  1.3266: [B] Out: uryyb
+world
+  3.5359: [MAIN] Print message:
+hi
+  4.9366: [MAIN] Print message:
+fo  6.3277: [B] Out: jbeyq
+obar
+  7.3152: [MAIN] Print message:
+one
+  8.4857: [MAIN] Print message:
+two
+  9.8955: [MAIN] Print message:
+three
+ 11.2160: [MAIN] Print message:
+ 11.3284: [B] Out: uv
+four
+ 12.4254: [MAIN] Print message:
+five
+ 15.2852: [MAIN] Print message:
+ 16.3287: [B] Out: sbbone
+six
+ 17.3165: [MAIN] Print message:
+seven
+ 21.0759: [MAIN] Print message:
+ 21.3293: [B] Out: bar
+eight
+ 25.2059: [MAIN] Print message:
+n 26.3298: [B] Out: gjb
+ine
+ 27.1255: [MAIN] Print message:
+ten
+ 28.4055: [MAIN] Print message:
+eleven
+ 30.5455: [MAIN] Print message:
+ 31.3303: [B] Out: guerr
+123
+ 32.1759: [MAIN] Print message:
+456
+ 34.4857: [MAIN] Print message:
+ 36.3312: [B] Out: sbhe
+ 41.3319: [B] Out: svir
+qwerty
+ 44.7456: [MAIN] Print message:
+asdfg 46.3328: [B] Out: fvk
+
+ 46.3954: [MAIN] Print message:
+zxcvb
+ 47.7754: [MAIN] Print message:
+lkjhg
+ 50.5659: [MAIN] Print message:
+poi 51.3333: [B] Out: frira
+uyt
+ 52.4557: [MAIN] Print message:
+mnbv
+ 54.0758: [MAIN] Print message:
+ 56.3339: [B] Out: rvtug
+ 61.3349: [B] Out: avar
+ 66.3354: [B] Out: gra
+ 71.3359: [B] Out: ryrira
+ 76.3369: [B] Out: 123
+ 81.3374: [B] Out: 456
+ 86.3381: [B] Out: djregl
+ 91.3391: [B] Out: nfqst
+ 96.3397: [B] Out: mkpio
+101.3402: [B] Out: yxwut
+106.3415: [B] Out: cbvhlg
+111.3420: [B] Out: zaoi

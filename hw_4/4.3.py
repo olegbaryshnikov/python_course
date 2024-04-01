@@ -40,7 +40,7 @@ def process_b(queue_in, queue_out):
                 f"{time.time()-START_TIME:8.4f}: Process B received message: {message}"
             )
             message = codecs.encode(message, "rot_13")
-            print(message)
+            print(f"{time.time()-START_TIME:8.4f}: [B] Out:", message)
             logging.info(
                 f"{time.time()-START_TIME:8.4f}: Process B is sending message: {message}"
             )
@@ -61,6 +61,7 @@ if __name__ == "__main__":
     p_b.start()
 
     while True:
+        print(f"{time.time()-START_TIME:8.4f}: [MAIN] Print message:")
         message = input()
         if len(message) != 0:
             logging.info(
