@@ -8,15 +8,42 @@ from typing import Any, Callable, Tuple
 from concurrent.futures import ThreadPoolExecutor, ProcessPoolExecutor
 
 
-def helper_count_step_sum(arguments: Tuple) -> float:
-    """
-    helper to pass multiple arguments to count_step_sum in executor
-    """
-    return count_step_sum(*arguments)
+def configure_logging():
+    artifacts_dir = os.path.join(os.getcwd(), "hw_4", "artifacts", "4.2")
+    logging.basicConfig(
+        filename=os.path.join(artifacts_dir, "outputs.log"), level=logging.INFO
+    )
 
 
-def count_step_sum(i: int, f: Callable[[float], float], a: float, step: float) -> float:
-    return f(a + i * step) * step
+def helper_integrate_part(arguments: Tuple) -> float:
+    """
+    helper to pass multiple arguments to integrate_part in executor
+    """
+    return integrate_part(*arguments)
+
+
+def integrate_part(
+    f: Callable[[float], float],
+    a: float,
+    step: float,
+    n_jobs: int,
+    n_iter: int,
+    part_i: int,
+) -> float:
+    configure_logging()
+    part_step = n_iter // n_jobs
+    shift = part_step * part_i
+
+    logging.info(f"Integration with process/thread number {part_i} was started")
+    start_time = time.time()
+    res = sum(
+        f(a + i * step) * step for i in range(shift, min(shift + part_step, n_iter))
+    )
+    end_time = time.time()
+    logging.info(
+        f"Integration with process/thread number {part_i} was finished in {end_time-start_time}"
+    )
+    return res
 
 
 def integrate(
@@ -25,14 +52,17 @@ def integrate(
     b: float,
     *,
     n_jobs: int = 1,
-    n_iter: int = 10_000,
+    n_iter: int = 10_000_000,
     executor_class: Any = ThreadPoolExecutor,
 ) -> float:
     step = (b - a) / n_iter
 
     executor = executor_class(max_workers=n_jobs)
     return sum(
-        executor.map(helper_count_step_sum, [(i, f, a, step) for i in range(n_iter)])
+        executor.map(
+            helper_integrate_part,
+            [(f, a, step, n_jobs, n_iter, part_i) for part_i in range(n_jobs)],
+        )
     )
 
 
